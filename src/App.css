@@ -1,25 +1,38 @@
+/* main-menu */
+
 .logo {
-    width: 40px;
-    height: 60px;
-    margin: auto 10px;
+    width: 30px;
+    height: 40px;
+    margin: 0 10px;
 }
 
-.mainMenu {
-    background-color: rgb(251, 231, 239);
-    border-bottom: 2px solid pink;
+.appName {
+    font-size: xx-large;
+    margin: 10px;
+    text-shadow: -2px 0 pink, 0 2px pink, 2px 0 pink, 0 -2px pink;
+
 }
+
+.menu {
+    border-bottom: 3px solid pink;
+    background-color: rgb(251, 231, 239);
+    color: white;
+}
+
+/* main-menu-button */
 
 .mainMenuButton {
-    margin: 5px;
-    text-align: center;
-    color: white;
+    margin: auto 5px;
+    color: white !important;
     background-color: pink;
     border: 1px solid white;
     padding: 5px 10px;
     border-radius: 10%;
+    text-decoration: none;
 }
 
 .mainMenuButton:hover {
     background-color: white;
-    color: pink;
+    color: pink !important;
+    border: 1px solid pink;
 }
