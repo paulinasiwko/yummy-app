@@ -4,6 +4,8 @@ import HomePage from "./home-page/home-page";
 
 export default function App() {
   return (
-     <HomePage />
+      <div className='app'>
+        <HomePage />
+      </div>
   );
 }

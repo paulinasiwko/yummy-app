@@ -1,0 +1,150 @@
+/* main-carousel */
+
+.title {
+    margin: 30px 0 5px 110px;
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.item2 {
+    text-align: center;
+    height: 135px;
+    width: 140px;
+    margin: 0 2px 15px 0;
+    background-color: plum;
+    color: white;
+    padding: 35px 0;
+}
+
+.item2:hover {
+    transform: scale(1.1) !important;
+    background-color: pink;
+}
+
+/* single-recipe-item */
+
+.item {
+    flex: 0 1 19.7%;
+    text-align: center;
+    margin: 0 2px 15px 0;
+    transition: transform 300ms ease 100ms;
+}
+
+.item:hover {
+    transform: scale(1.5) !important;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.photo {
+    height: 130px;
+    width: 180px;
+    object-fit: cover;
+    margin-top: 2px;
+}
+
+.recipeHiddenPart {
+    display: flex;
+}
+
+.recipeTitle {
+    flex-grow: 2;
+    margin: 5px 0 0 5px;
+    text-align: left;
+    font-size: x-small;
+}
+
+.recipeButton {
+    background-color: plum !important;
+    border-radius: 0 !important;
+    padding: 3px 7px !important;
+    font-size: xx-small !important;
+    border-color: plum !important;
+    margin: 0 0 5px 5px;
+}
+
+.recipeButton:hover {
+    background-color: pink;
+}
+
+.heartIcon {
+    flex-grow: 1;
+    margin-top: 5px;
+    font-size: medium;
+}
+
+/* main-menu */
+
+.logo {
+    width: 30px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.appName {
+    font-size: xx-large;
+    text-shadow: -2px 0 pink, 0 2px pink, 2px 0 pink, 0 -2px pink;
+
+}
+
+.menu {
+    border-bottom: 3px solid pink;
+    background-color: rgb(251, 231, 239);
+    color: white;
+}
+/* main-menu-button */
+
+.mainMenuButton {
+    margin: 5px;
+    color: white !important;
+    background-color: pink;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    width: 80px;
+}
+
+.mainMenuButton:hover {
+    background-color: white;
+    color: pink !important;
+    border: 1px solid pink;
+}
+
+/* recommended-carousel */
+
+.homePageCarousel {
+    height: 300px;
+}
+
+.carouselPhoto {
+    display: block;
+    margin-left: 10%;
+    height: 280px;
+    width: 400px;
+}
+
+.descriptionCard {
+    width: 280px;
+    margin-left: 55%;
+    color: white;
+}
+
+.recommendedElement {
+    background-color: rgb(251, 231, 239);
+}
+
+.recommendedCarouselTitle {
+    margin-left: 10%;
+    color: #8FBC8B;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.recommendedDescriptionText {
+    background-color: #FBCEB1;
+}

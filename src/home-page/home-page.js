@@ -1,8 +1,7 @@
 import React from "react";
 import MainMenu from "../components/main-menu";
-import BreakfastCarousel from "../components/breakfast-carousel";
-import LunchCarousel from "../components/lunch-carousel";
-import MainCarousel from "../components/carousel";
+import RecommendedCarousel from "../components/recommended-carousel";
+import MainCarousel from "../components/main-carousel";
 
 export default function HomePage() {
     return (
@@ -12,7 +11,7 @@ export default function HomePage() {
             <MainCarousel title='lunch' />
             <MainCarousel title='soup' />
             <MainCarousel title='dessert' />
-            <LunchCarousel />
+            <RecommendedCarousel />
         </div>
     );
 }

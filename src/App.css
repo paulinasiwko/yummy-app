@@ -1,91 +1,9 @@
-/* main-menu */
+/* App */
 
-.logo {
-    width: 30px;
-    height: 40px;
-    margin: 0 10px;
+.app {
+    background-color: snow;
 }
 
-.appName {
-    font-size: xx-large;
-    text-shadow: -2px 0 pink, 0 2px pink, 2px 0 pink, 0 -2px pink;
 
-}
-
-.menu {
-    border-bottom: 3px solid pink;
-    background-color: rgb(251, 231, 239);
-    color: white;
-}
-/* main-menu-button */
-
-.mainMenuButton {
-    margin: 5px;
-    color: white !important;
-    background-color: pink;
-    border: 1px solid white;
-    padding: 5px 10px;
-    border-radius: 10%;
-    text-align: center;
-    text-decoration: none;
-    width: 80px;
-}
-
-.mainMenuButton:hover {
-    background-color: white;
-    color: pink !important;
-    border: 1px solid pink;
-}
-
-/* breakfast-carousel */
-
-.breakfastElement {
-    background-color: lemonchiffon;
-}
-
-.breakfastCarouselTitle {
-    margin-left: 10%;
-    color: rgb(204,204,0);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
-}
-
-.homePageCarousel {
-    height: 300px;
-}
-
-.carouselPhoto {
-    display: block;
-    margin-left: 10%;
-    height: 280px;
-    width: 400px;
-}
-
-.descriptionCard {
-    width: 280px;
-    margin-left: 55%;
-    color: white;
-}
-
-.breakfastDescriptionText {
-    background-color: plum;
-}
-
-/* lunch-carousel */
-
-.lunchElement {
-    background-color: #D0F0C0;
-}
-
-.lunchCarouselTitle {
-    margin-left: 10%;
-    color: #8FBC8B;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
-}
-
-.lunchDescriptionText {
-    background-color: #FBCEB1;
-}
 
 

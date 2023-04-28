@@ -1,11 +1,11 @@
 import React from "react";
-import '../App.css'
+import './components.css';
 import {Card, Carousel} from "react-bootstrap";
 
-export default function LunchCarousel() {
+export default function RecommendedCarousel() {
     return (
-        <div className='lunchElement'>
-            <h1 className='lunchCarouselTitle'>Lunch ideas</h1>
+        <div className='recommendedElement'>
+            <h1 className='recommendedCarouselTitle'>Recommended recipes</h1>
             <Carousel className='homePageCarousel'
                       variant='dark'>
                 <Carousel.Item>
@@ -14,7 +14,7 @@ export default function LunchCarousel() {
                          className='carouselPhoto'/>
                     <Carousel.Caption>
                         <Card className='descriptionCard'>
-                            <Card.Body className='lunchDescriptionText'>
+                            <Card.Body className='recommendedDescriptionText'>
                                 <Card.Title>Avocado toast</Card.Title>
                                 <Card.Text>
                                     Avocado toast is an open-face sandwich made with toasted bread
@@ -31,7 +31,7 @@ export default function LunchCarousel() {
                          className='carouselPhoto'/>
                     <Carousel.Caption>
                         <Card className='descriptionCard'>
-                            <Card.Body className='lunchDescriptionText'>
+                            <Card.Body className='recommendedDescriptionText'>
                                 <Card.Title>Cesar salad</Card.Title>
                                 <Card.Text>
                                     Caesar salad is a classic lunch that's highly adaptable.
@@ -42,7 +42,6 @@ export default function LunchCarousel() {
                         </Card>
                     </Carousel.Caption>
                 </Carousel.Item>
-
             </Carousel>
         </div>
     );
