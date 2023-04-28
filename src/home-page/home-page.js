@@ -8,7 +8,10 @@ export default function HomePage() {
     return (
         <div>
             <MainMenu />
-            <MainCarousel />
+            <MainCarousel title='breakfast' />
+            <MainCarousel title='lunch' />
+            <MainCarousel title='soup' />
+            <MainCarousel title='dessert' />
             <LunchCarousel />
         </div>
     );

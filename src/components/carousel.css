@@ -1,48 +1,57 @@
 /* MainCarousel */
 
-.carouselBackground {
-    background-color: lemonchiffon;
-}
-
 .title {
-    margin: 0px 0 30px 100px;
-    color: rgb(204,204,0);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
+    margin: 30px 0 5px 110px;
+    color: black;
 }
 
 .container {
     display: flex;
-    padding: 0 55px;
-}
-
-.container:hover .item {
-    transform: translateX(-10%);
 }
 
 .item {
-    background: green;
-    flex: 0 0 19.7%;
+    flex: 0 1 19.7%;
     text-align: center;
-    margin: 0 2px 30px 0;
+    margin: 0 2px 15px 0;
     transition: transform 300ms ease 100ms;
 }
 
-.item:hover ~ .item {
-    transform: translateX(10%);
+.item:hover {
+    transform: scale(1.5) !important;
 }
 
-.item:hover {
-    transform: scale(1.2) !important;
+.item2 {
+    text-align: center;
+    height: 130px;
+    width: 140px;
+    margin: 0 2px 15px 0;
+    background-color: plum;
+    color: white;
+    padding: 30px 0;
+}
+
+.item2:hover {
+    transform: scale(1.1) !important;
+    background-color: pink;
 }
 
 .photo {
-    display: block;
-    height: 180px;
-    width: 190px;
+    height: 130px;
+    width: 180px;
+    object-fit: cover;
 }
 
 .recipeButton {
     background-color: plum !important;
     border-radius: 0 !important;
+    padding: 3px 10px !important;
+    font-size: xx-small !important;
+    border-color: plum !important;
+    margin-left: 2px;
+}
+
+.recipeTitle {
+    margin: 5px 0 5px 2px;
+    text-align: left;
+    font-size: x-small;
 }

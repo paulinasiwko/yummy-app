@@ -1,36 +1,18 @@
-import React from "react";
 import './carousel.css';
-import {Button} from "react-bootstrap";
+import SingleRecipeItem from "./single-recipe-item";
 
-export default function MainCarousel() {
+
+export default function MainCarousel({title} ) {
     return (
-        <div className='carouselBackground'>
-            <h3 className='title'>Breakfast ideas</h3>
+        <div>
+            <h5 className='title'>Ideas for {title}</h5>
             <div className='container'>
-                <div className='item'>
-                    <img src={require('../img/breakfast/english-breakfast.jpg')}
-                         alt='English breakfast'
-                         className='photo'/>
-                    <Button variant='secondary'
-                            className='recipeButton'>English breakfast recipe</Button>
-                </div>
-                <div className='item'>
-                    <img src={require('../img/breakfast/english-breakfast.jpg')}
-                         alt='English breakfast'
-                         className='photo'/>
-                </div>
-                <div className='item'>
-                    <img src={require('../img/breakfast/english-breakfast.jpg')}
-                         alt='English breakfast'
-                         className='photo'/>
-                </div>
-                <div className='item'>
-                    <img src={require('../img/breakfast/english-breakfast.jpg')}
-                         alt='English breakfast'
-                         className='photo'/>
-                </div>
-                <div className='item'>
-                    <h4>Click here to discover more breakfast ideas</h4>
+                <SingleRecipeItem recipeName='English breakfast' />
+                <SingleRecipeItem recipeName='Waffles' />
+                <SingleRecipeItem recipeName='Benedict eggs' />
+                <SingleRecipeItem recipeName='Avocado toast' />
+                <div className='item2'>
+                    <h6>Click here to discover more {title} ideas</h6>
                 </div>
             </div>
         </div>
