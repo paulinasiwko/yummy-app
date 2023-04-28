@@ -9,8 +9,8 @@ export default function HomePage() {
             <MainMenu />
             <MainCarousel title='breakfast' />
             <MainCarousel title='lunch' />
-            <MainCarousel title='soup' />
-            <MainCarousel title='dessert' />
+            <MainCarousel title='soups' />
+            <MainCarousel title='desserts' />
             <RecommendedCarousel />
         </div>
     );

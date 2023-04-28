@@ -57,6 +57,10 @@
     font-size: x-small;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .recipeButton {
     background-color: plum !important;
     border-radius: 0 !important;
@@ -67,12 +71,12 @@
 }
 
 .recipeButton:hover {
-    background-color: pink;
+    background-color: pink !important;
 }
 
 .heartIcon {
     flex-grow: 1;
-    margin-top: 5px;
+    margin-top: 7px;
     font-size: medium;
 }
 
@@ -136,15 +140,16 @@
 
 .recommendedElement {
     background-color: rgb(251, 231, 239);
+    border-top: 1px solid pink;
 }
 
 .recommendedCarouselTitle {
-    margin-left: 10%;
-    color: #8FBC8B;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: 0 0 20px 10%;
+    color: white;
+    text-shadow: -2px 0 pink, 0 2px pink, 2px 0 pink, 0 -2px pink;
 
 }
 
 .recommendedDescriptionText {
-    background-color: #FBCEB1;
+    background-color: pink;
 }

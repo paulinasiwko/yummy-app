@@ -4,15 +4,33 @@ import App from './App';
 import './index.css';
 import '../node_modules/react-bootstrap/dist/react-bootstrap';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import {createHashRouter, RouterProvider } from "react-router-dom";
+import SingleRecipePage from "./single-recipe-page/single-recipe-page";
+import ErrorPage from "./components/error-page";
+import AllRecipesList from "./all-recipes-list/all-recipes-list";
 
+
+const router = createHashRouter([
+    {
+        path: '/',
+        element: <App />,
+        errorElement: <ErrorPage />,
+    },
+    {
+        path: '/single-recipe-page',
+        element: <SingleRecipePage />,
+    },
+    {
+        path: '/all-recipes-list',
+        element: <AllRecipesList />,
+    },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
