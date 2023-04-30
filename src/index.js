@@ -8,6 +8,7 @@ import {createHashRouter, RouterProvider } from "react-router-dom";
 import SingleRecipePage from "./single-recipe-page/single-recipe-page";
 import ErrorPage from "./components/error-page";
 import AllRecipesList from "./all-recipes-list/all-recipes-list";
+import LogIn from "./log-in/log-in";
 
 
 const router = createHashRouter([
@@ -23,6 +24,10 @@ const router = createHashRouter([
     {
         path: '/all-recipes-list',
         element: <AllRecipesList />,
+    },
+    {
+        path: '/log-in',
+        element: <LogIn />
     },
 ]);
 

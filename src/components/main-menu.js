@@ -2,8 +2,6 @@ import React from "react";
 import './components.css';
 import {Navbar, Nav, Container} from "react-bootstrap";
 import MainMenuButton from "./main-menu-button";
-
-
 export default function MainMenu() {
     return (
         <Navbar collapseOnSelect
@@ -19,7 +17,8 @@ export default function MainMenu() {
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse id='responsive-navbar-nav'>
                     <Nav>
-                        <MainMenuButton buttonText={'Log In'} />
+                        <MainMenuButton buttonText={'Log In'}
+                                        href={'/log-in'} />
                         <MainMenuButton buttonText={'Sign In'} />
                     </Nav>
                 </Navbar.Collapse>

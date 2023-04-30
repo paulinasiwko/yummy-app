@@ -1,0 +1,42 @@
+.logInImage {
+    background-image: url("../img/log-in.jpg");
+    background-size: cover;
+    height: 550px;
+}
+
+.goBackArrow {
+    margin: 20px 0 0 20px;
+    color: black !important;
+}
+
+.goBackArrow:hover {
+    color: white !important;
+}
+
+.logInCard {
+    margin: 80px 20px;
+    text-align: center;
+    box-shadow: 1px 1px 1px lightgrey;
+}
+
+.logInText {
+    font-size: x-large;
+}
+
+.formControl {
+    margin: 20px auto;
+    width: 90%;
+}
+
+.logInButton {
+    padding: 8px !important;
+    color: white !important;
+    font-weight: bold;
+    margin: 20px 0;
+    width: 90%;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.signUpText {
+    font-size: small;
+}
