@@ -1,4 +1,4 @@
-.logInImage {
+.signUpImage {
     background-image: url("../img/log-in.jpg");
     background-size: cover;
     height: 600px;
@@ -13,13 +13,13 @@
     color: white !important;
 }
 
-.logInCard {
+.signUpCard {
     margin: 80px 20px;
     text-align: center;
     box-shadow: 1px 1px 1px lightgrey;
 }
 
-.logInText {
+.signUpText {
     font-size: x-large;
 }
 
@@ -28,15 +28,11 @@
     width: 90%;
 }
 
-.logInButton {
+.signUpButton {
     padding: 8px !important;
     color: white !important;
     font-weight: bold;
     margin: 20px 0;
     width: 90%;
     box-shadow: 1px 1px 1px grey;
-}
-
-.registerText {
-    font-size: small;
 }

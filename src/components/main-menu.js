@@ -10,16 +10,16 @@ export default function MainMenu() {
                 className='menu'>
             <Container fluid>
                 <Navbar.Brand>
-                    <h1 className='appName'><img src={require('../img/cake.jpg')}
-                             alt='logo'
-                             className='logo'/> Yummy!</h1>
+                    <h1 className='appName'>Yummy!</h1>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-                <Navbar.Collapse id='responsive-navbar-nav'>
+                <Navbar.Collapse id='responsive-navbar-nav'
+                                 className='justify-content-end'>
                     <Nav>
                         <MainMenuButton buttonText={'Log In'}
                                         href={'/log-in'} />
-                        <MainMenuButton buttonText={'Sign In'} />
+                        <MainMenuButton buttonText={'Sign Up'}
+                                        href={'/sign-up'} />
                     </Nav>
                 </Navbar.Collapse>
             </Container>

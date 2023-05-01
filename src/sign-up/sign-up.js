@@ -1,24 +1,23 @@
 import React from "react";
-import './log-in.css';
+import './sign-up.css';
 import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import {Button, Container, Card, Col, Form, Row } from "react-bootstrap";
-
-export default function LogIn() {
+export default function SignUp() {
     return(
         <Container fluid>
             <Row>
-                <Col sm='7' className='logInImage'>
+                <Col sm='7' className='signUpImage'>
                     <Link to={'/'}>
                         <FaArrowLeft size='25'
                                      className='goBackArrow' />
                     </Link>
                 </Col>
                 <Col sm='5'>
-                    <Card className='logInCard'>
+                    <Card className='signUpCard'>
                         <Card.Body>
-                            <Card.Title className='logInText'>
-                                Log In
+                            <Card.Title className='signUpText'>
+                                Sign Up Now
                             </Card.Title>
                             <Card.Text>
                                 <Form>
@@ -26,19 +25,22 @@ export default function LogIn() {
                                         <Form.Control type='email'
                                                       placeholder='Email address'
                                                       className='formControl' />
+                                        <Form.Control type='name'
+                                                      placeholder='Username'
+                                                      className='formControl' />
                                         <Form.Control type='password'
                                                       placeholder='Password'
                                                       className='formControl' />
+                                        <Form.Control type='password'
+                                                      placeholder='Confirm password'
+                                                      className='formControl' />
                                     </Form.Group>
                                     <Button variant='warning'
-                                            className='logInButton'
+                                            className='signUpButton'
                                             type='submit'>
-                                        LOGIN
+                                        CREATE AN ACCOUNT
                                     </Button>
                                 </Form>
-                                <p className='registerText'>Don't have an account?{' '}
-                                    <Link to={'/sign-up'}>Register here</Link>
-                                </p>
                             </Card.Text>
                         </Card.Body>
                     </Card>

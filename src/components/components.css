@@ -67,7 +67,7 @@
     padding: 3px 7px !important;
     font-size: xx-small !important;
     border-color: plum !important;
-    margin: 0 0 5px 5px;
+    margin: 0 0 10px 5px;
 }
 
 .recipeButton:hover {
@@ -82,30 +82,21 @@
 
 /* main-menu */
 
-.logo {
-    width: 30px;
-    height: 40px;
-    margin: 0 10px;
-}
-
 .appName {
+    margin-left: 20px;
     font-size: xx-large;
-    text-shadow: -2px 0 pink, 0 2px pink, 2px 0 pink, 0 -2px pink;
-
 }
 
 .menu {
-    border-bottom: 3px solid pink;
-    background-color: rgb(251, 231, 239);
+    background-color: #FFBF00;
     color: white;
 }
 /* main-menu-button */
 
 .mainMenuButton {
-    margin: 5px;
-    color: white !important;
-    background-color: pink;
-    border: 1px solid white;
+    margin: 5px 10px 5px 0;
+    background-color: white !important;
+    color: #FFBF00 !important;
     padding: 5px 8px !important;
     border-radius: 10%;
     text-align: center;
@@ -114,9 +105,8 @@
 }
 
 .mainMenuButton:hover {
-    background-color: white;
-    color: pink !important;
-    border: 1px solid pink;
+    color: black !important;
+    border: 1px solid black !important;
 }
 
 /* recommended-carousel */
@@ -136,20 +126,19 @@
     width: 280px;
     margin-left: 55%;
     color: white;
+    border: 1px solid black !important;
 }
 
 .recommendedElement {
-    background-color: rgb(251, 231, 239);
-    border-top: 1px solid pink;
+    background-color: #FFBF00;
 }
 
 .recommendedCarouselTitle {
     margin: 0 0 20px 10%;
     color: white;
-    text-shadow: -2px 0 pink, 0 2px pink, 2px 0 pink, 0 -2px pink;
-
 }
 
 .recommendedDescriptionText {
-    background-color: pink;
+    background-color: white;
+    color: #FFBF00 !important;
 }

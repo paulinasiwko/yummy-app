@@ -9,6 +9,8 @@ import SingleRecipePage from "./single-recipe-page/single-recipe-page";
 import ErrorPage from "./components/error-page";
 import AllRecipesList from "./all-recipes-list/all-recipes-list";
 import LogIn from "./log-in/log-in";
+import SignUp from "./sign-up/sign-up";
+;
 
 
 const router = createHashRouter([
@@ -28,6 +30,10 @@ const router = createHashRouter([
     {
         path: '/log-in',
         element: <LogIn />
+    },
+    {
+        path: '/sign-up',
+        element: <SignUp />
     },
 ]);
 
