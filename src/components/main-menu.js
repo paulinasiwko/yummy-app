@@ -2,6 +2,7 @@ import React from "react";
 import './components.css';
 import {Navbar, Nav, Container} from "react-bootstrap";
 import MainMenuButton from "./main-menu-button";
+import {Link} from "react-router-dom";
 export default function MainMenu() {
     return (
         <Navbar collapseOnSelect
@@ -10,7 +11,9 @@ export default function MainMenu() {
                 className='menu'>
             <Container fluid>
                 <Navbar.Brand>
-                    <h1 className='appName'>Yummy!</h1>
+                    <Link to={'/'} className='yummyLink'>
+                        <h1 className='appName'>Yummy!</h1>
+                    </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse id='responsive-navbar-nav'

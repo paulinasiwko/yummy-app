@@ -4,10 +4,9 @@ import {Card, Carousel} from "react-bootstrap";
 
 export default function RecommendedCarousel() {
     return (
-        <div className='recommendedElement'>
-            <h1 className='recommendedCarouselTitle'>Recommended recipes</h1>
-            <Carousel className='homePageCarousel'
-                      variant='dark'>
+        <div>
+            <h2 className='recommendedRecipes'>Recommended recipes</h2>
+            <Carousel variant='dark' className='mainCarousel'>
                 <Carousel.Item>
                     <img src={require('../img/lunch/avocato-toast.jpg')}
                          alt='Avocado toast'

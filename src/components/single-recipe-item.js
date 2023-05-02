@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import './components.css';
 import { Button } from "react-bootstrap";
-import {FaHeart, FaRegHeart} from "react-icons/fa";
+import { FaRegHeart} from "react-icons/fa";
 import { Link } from "react-router-dom";
+import {FcLike} from "react-icons/fc";
 
 export default function SingleRecipeItem({ recipeName, image }) {
     const [hover, setHover] = useState({display: 'none'});
@@ -25,12 +26,14 @@ export default function SingleRecipeItem({ recipeName, image }) {
                         </h6>
                         {isLiked ? (
                             <FaRegHeart className='heartIcon'
+                                        size='15'
                                         onClick={handleLike}
                                         style={hover}/>
                         ) : (
-                            <FaHeart className='heartIcon'
-                                     onClick={handleLike}
-                                     style={hover} />
+                            <FcLike className='heartIcon'
+                                    size='15'
+                                    onClick={handleLike}
+                                    style={hover} />
                         )}
 
                     </div>

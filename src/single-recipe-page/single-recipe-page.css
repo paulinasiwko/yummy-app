@@ -1,0 +1,58 @@
+.heart {
+    margin-top: 20px;
+    margin-left: 95%;
+}
+
+.recipeName {
+    text-align: center;
+    margin-top: 100px;
+    font-size: xxx-large;
+}
+
+.shortDescription {
+    margin: 30px 60px 0 100px;
+    text-align: left;
+    font-size: small;
+}
+
+.goBackButton {
+    padding: 8px 10px !important;
+    color: white !important;
+    font-weight: bold;
+    margin: 20px 0 100px 100px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.additionalInfo {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.additional {
+    margin: 10px auto;
+}
+
+.ingredients {
+    margin: 60px 0 20px 0;
+}
+
+.ingredientsTitle {
+    margin: 0 60px 30px 30px;
+    text-align: left;
+    font-size: x-large;
+}
+
+.directionsTitle {
+    text-align: center;
+    margin: 60px 0 30px 0;
+}
+
+.directions {
+    margin-left: 10%;
+}
+
+.step {
+    font-weight: bold;
+}

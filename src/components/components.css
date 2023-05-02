@@ -77,10 +77,14 @@
 .heartIcon {
     flex-grow: 1;
     margin-top: 7px;
-    font-size: medium;
 }
 
 /* main-menu */
+
+.yummyLink {
+    text-decoration: none !important;
+    color: white !important;
+}
 
 .appName {
     margin-left: 20px;
@@ -111,26 +115,33 @@
 
 /* recommended-carousel */
 
-.homePageCarousel {
-    height: 300px;
+.recommendedRecipes {
+    color: white;
+    padding: 20px;
+    background-color: #FFBF00;
+}
+
+.mainCarousel {
+    height: 400px;
 }
 
 .carouselPhoto {
-    display: block;
-    margin-left: 10%;
-    height: 280px;
-    width: 400px;
+    object-fit: cover;
+    height: 400px;
+    width: 600px;
+    margin-left: 25%;
 }
 
 .descriptionCard {
     width: 280px;
-    margin-left: 55%;
-    color: white;
-    border: 1px solid black !important;
+    border: 1px solid #FFBF00 !important;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .recommendedElement {
     background-color: #FFBF00;
+    height: 300px;
 }
 
 .recommendedCarouselTitle {
@@ -139,6 +150,5 @@
 }
 
 .recommendedDescriptionText {
-    background-color: white;
-    color: #FFBF00 !important;
+    color: black !important;
 }
