@@ -1,0 +1,23 @@
+.recipeCard {
+    width: 16rem;
+    margin: 20px auto;
+    padding: 0;
+    background-color: plum;
+    color: white;
+    text-align: center;
+}
+
+.cardPhoto {
+    object-fit: cover;
+    height: 10rem;
+}
+
+.cardLink {
+    text-decoration: none;
+    color: white;
+}
+
+.cardLink:hover {
+    color: white;
+    text-decoration: underline white;
+}
