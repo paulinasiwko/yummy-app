@@ -1,5 +1,5 @@
 .recipeCard {
-    width: 16rem;
+    width: 15rem;
     margin: 20px auto;
     padding: 0;
     background-color: plum;
@@ -15,6 +15,7 @@
 .cardLink {
     text-decoration: none;
     color: white;
+    font-size: medium;
 }
 
 .cardLink:hover {

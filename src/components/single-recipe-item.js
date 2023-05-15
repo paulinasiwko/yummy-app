@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './components.css';
-import { Button } from "react-bootstrap";
+import {Button} from "react-bootstrap";
 import { FaRegHeart} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import {FcLike} from "react-icons/fc";
@@ -16,9 +16,11 @@ export default function SingleRecipeItem({ recipeName, image }) {
                 <div className='item'
                      onPointerEnter={e => setHover({display: 'block'})}
                      onPointerLeave={e => setHover({display: 'none'})}>
+                    <Link to={'/single-recipe-page'}>
                     <img src={require(`../img/${image}`)}
                          alt={recipeName}
                          className='photo' />
+                    </Link>
                     <div className='recipeHiddenPart'>
                         <h6 className='recipeTitle'
                             style={hover}>

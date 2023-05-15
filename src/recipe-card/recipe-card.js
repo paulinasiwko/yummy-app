@@ -13,9 +13,11 @@ export default function RecipeCard({ cardTitle, cardImage }) {
 
     return (
             <Card className='recipeCard'>
+                <Link to={'/single-recipe-page'}>
                 <Card.Img variant='top'
                           className='cardPhoto'
                           src={require(`../img/breakfast/${cardImage}`)} />
+                </Link>
                 <Card.Body>
                     <Card.Title>
                         {isLiked ? (

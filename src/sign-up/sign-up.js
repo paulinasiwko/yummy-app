@@ -19,7 +19,6 @@ export default function SignUp() {
                             <Card.Title className='signUpText'>
                                 Sign Up Now
                             </Card.Title>
-                            <Card.Text>
                                 <Form>
                                     <Form.Group>
                                         <Form.Control type='email'
@@ -41,7 +40,6 @@ export default function SignUp() {
                                         CREATE AN ACCOUNT
                                     </Button>
                                 </Form>
-                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
