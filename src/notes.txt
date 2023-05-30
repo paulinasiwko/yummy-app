@@ -1,0 +1,36 @@
+1-szy endpoint: POST/register
+w body requestu wyslac:
+
+{name: "string", email: "string", password: "string"}
+
+co przychodzi w odpowiedzi (1 uzytkownik):
+
+{id: "string", name: "string", email: "string", password: "string"}
+
+
+2 endpoint: GET/users
+dostajemy liste uzytkownikow (patrz gora)
+
+[{id: "string", name: "string", email: "string", password: "string"}
+{id: "string", name: "string", email: "string", password: "string"}
+{id: "string", name: "string", email: "string", password: "string"}]
+
+
+
+3 endpoint: POST/login
+w requescie przekazac
+
+{email: "string", password: "string"}
+
+w odpowiedzi przychodzi token (zapisac gdzies w stanie aplikacji)
+
+{token: "string"}
+
+
+4 endpoint: GET/me
+przeslac naglowek authorization z wartoscia z tokenu
+w odpowiedzi zalogowany uzytkownik
+
+{id: "string", name: "string", email: "string", password: "string"}
+
+
